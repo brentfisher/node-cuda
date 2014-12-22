@@ -7,9 +7,8 @@ Handle<Value> RunTest(const Arguments& args) {
     HandleScope scope;
 
     if (!args[0]->IsString()) {
-        return ThrowException(
-            Exception::TypeError(String::New("First param not a string!"))
-        );
+        return ThrowException(Exception::TypeError(
+            String::New("First argument must be a string")));
     }
     if (!args[1]->IsFunction()) {
         return ThrowException(Exception::TypeError(
