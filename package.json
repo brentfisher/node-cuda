@@ -1,0 +1,24 @@
+{
+  "name": "node-cuda",
+  "version": "1.0.0",
+  "description": "A Node.js to C++ Binding Test with CUDA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brentfisher/node-cuda.git"
+  },
+  "keywords": [
+    "CUDA",
+    "node.js",
+    "c++"
+  ],
+  "author": "brentfisher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brentfisher/node-cuda/issues"
+  },
+  "homepage": "https://github.com/brentfisher/node-cuda"
+}
