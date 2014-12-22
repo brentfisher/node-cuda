@@ -5,4 +5,9 @@ console.log("---Module---");
 console.dir(mymodule);
 console.log("---End Module---");
 
-console.log(mymodule.cudatest("Hello from cpp!"));
+console.log("\n");
+
+mymodule.cudatest("Hello from cpp!", function(err, obj) {
+  console.log("done");
+  console.log(obj);
+});;
