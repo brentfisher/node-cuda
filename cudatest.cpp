@@ -13,9 +13,8 @@ Handle<Value> RunTest(const Arguments& args) {
     }
 
     Local<String> mystr = args[0]->ToString();
-    std::string str = "foo";
 
-    return scope.Close(String::New("Hello from cpp"));
+    return scope.Close(mystr);
 }
 
 void RegisterModule(Handle<Object> target) {
